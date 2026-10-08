@@ -1,0 +1,100 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="H5KBlOAGvSwDqjCUP25G">
+    <mxGraphModel dx="1137" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="npiTO9CgeNrnI83PyGjS-1" edge="1" parent="1" source="npiTO9CgeNrnI83PyGjS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="npiTO9CgeNrnI83PyGjS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="begin" vertex="1">
+          <mxGeometry height="40" width="100" x="315" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-3" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Read Number" vertex="1">
+          <mxGeometry height="40" width="150" x="290" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-4" edge="1" parent="1" source="npiTO9CgeNrnI83PyGjS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.475;exitY=1.049;exitDx=0;exitDy=0;exitPerimeter=0;" target="npiTO9CgeNrnI83PyGjS-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="360" y="210" as="sourcePoint" />
+            <mxPoint x="360" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="i = 1" vertex="1">
+          <mxGeometry height="40" width="100" x="310" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-6" edge="1" parent="1" source="npiTO9CgeNrnI83PyGjS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="npiTO9CgeNrnI83PyGjS-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.29999999999995" y="472.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-7" connectable="0" parent="npiTO9CgeNrnI83PyGjS-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.2084" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="i &amp;lt;= 12" vertex="1">
+          <mxGeometry height="100" width="180" x="270" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-11" edge="1" parent="1" source="npiTO9CgeNrnI83PyGjS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="npiTO9CgeNrnI83PyGjS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-12" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="End" vertex="1">
+          <mxGeometry height="40" width="80" x="90" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-13" edge="1" parent="1" source="npiTO9CgeNrnI83PyGjS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="npiTO9CgeNrnI83PyGjS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-14" connectable="0" parent="npiTO9CgeNrnI83PyGjS-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.4455" y="3" as="geometry">
+            <mxPoint x="22" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-15" edge="1" parent="1" source="npiTO9CgeNrnI83PyGjS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.53;entryY=-0.033;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" target="npiTO9CgeNrnI83PyGjS-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.9999999999999" y="640" as="sourcePoint" />
+            <mxPoint x="360" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-16" connectable="0" parent="npiTO9CgeNrnI83PyGjS-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.3806" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-20" edge="1" parent="1" source="npiTO9CgeNrnI83PyGjS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=-0.063;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" target="npiTO9CgeNrnI83PyGjS-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="360" y="540" as="sourcePoint" />
+            <mxPoint x="359.9999999999999" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-22" edge="1" parent="1" source="npiTO9CgeNrnI83PyGjS-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.532;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" target="npiTO9CgeNrnI83PyGjS-25" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-24" edge="1" parent="1" source="npiTO9CgeNrnI83PyGjS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="npiTO9CgeNrnI83PyGjS-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="750" />
+              <mxPoint x="580" y="320" />
+            </Array>
+            <mxPoint x="690" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="i++" vertex="1">
+          <mxGeometry height="40" width="120" x="300" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-27" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Print ResultSentence" vertex="1">
+          <mxGeometry height="40" width="170" x="270" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Result = Number* i" vertex="1">
+          <mxGeometry height="40" width="120" x="300" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="npiTO9CgeNrnI83PyGjS-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="ResultSentence =&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Number + &quot; * &quot; + + i + &quot; = &quot; = Result&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="300" x="210" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
